@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up & Sign In Form</title>
+    <!-- All Css Fills -->
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Mian Css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Family -->
+    <!-- Font Fjalla -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+</head>
+<body id="body" class="body">
+    <div class="form-validation">
+        <div class="forms-container">
+            <form action="" class="sign-in-form" id='signin-form'>
+                <h2 class="form-title">Sign in</h2>
+                <div class="input-field">
+                    <label for="username-or-email" class="label">Username or Email</label>
+                    <input id="username-or-email" class='input-signin field-signin' type="text" placeholder="Enter your username or email" name='username-or-email'>
+                    <div class="error"></div>
+                </div>
+                <div class="input-field">
+                    <label for="signin-password" class="label">Password</label>
+                    <input id="signin-password" class='input-signin field-signin' type="password" placeholder="Enter your password" name='password'>
+                    <div class="error"></div>
+                </div>
+                <div class='forget'>
+                    <div class='forget-box'>
+                        <input id="remember" class='input-checked-signin field-signin' type="checkbox" name="check" >
+                        <label class='check-label' for="remember">Remember me</label><br>
+                    </div>
+                    <a class='forgot-password'>Forgot password?</a>
+                </div>
+                <button type='submit' id='signin-btn' class='btn signin-btn'>submit</button>
+                <div class='or-box'>
+                    <span class='left-line'></span>
+                    <span class='or-text'>or</span>
+                    <span class='right-line'></span>
+                </div>
+                <div class="social-media-btns">
+                    <a href="https://www.google.com/" class="social-btn i-google">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="https://twitter.com/?lang=en" class="social-btn i-x">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a href="https://www.facebook.com/" class="social-btn i-facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </div>
+                <p class="account-text">Don't have an account? <a href="#" id="sign-up-link" class='link-text signup-link'>Sign up</a></p>
+            </form>
+            <form action="" class="sign-up-form" id='signup-form'>
+                <h2 class="form-title">Sign up</h2>
+                <div class="input-field">
+                    <label for="username" class="label" >Username</label>
+                    <input id="username" class='input-signup field' type="text" placeholder="Enter your username or email" name='username'>
+                    <div class="error"></div>
+                </div>
+                <div class="input-field">
+                    <label for="email" class="label">Email</label>
+                    <input id='email' class='input-signup field' type="text" placeholder="Enter your username or email" name='email'>
+                    <div class="error"></div>
+                </div>
+                <div class="input-field">
+                    <label for="signup-password" class="label">Password</label>
+                    <input id="signup-password" class='input-signup field' type="password" placeholder="Enter your password" name='password'>
+                    <div class="error"></div>
+                </div>
+                <div class='condation-box'>
+                    <div class='condition' id='condition'>
+                        <input id='checked' class='input-checked-signup field' type="checkbox" name="check" >
+                        <label class='check-label' for="checked">I agree with <span class='underline'>Terms of Use </span>and<span class='underline'> privacy policy</span></label>
+                    </div>
+                    <div class="error"></div>
+                </div>
+                <button id="signup-btn" type='submit' class="btn signup-btn">create</button>
+                <div class='or-box'>
+                    <span class='left-line'></span>
+                    <span class='or-text'>or</span>
+                    <span class='right-line'></span>
+                </div>
+                <div class="social-media-btns">
+                    <a href="https://www.google.com/" class="social-btn i-google">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="https://twitter.com/?lang=en" class="social-btn i-x">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a href="https://www.facebook.com/" class="social-btn i-facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </div>
+                <p class="account-text">Already have an account? <a href="#" id="sign-in-link" class='link-text signin-link'>Sign in</a></p>
+            </form>
+        </div>
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3 class='panel-title'>
+                        Hello, Friend
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque accusantium dolor, eos incidunt
+                    </p>
+                </div>
+                <img src="./imgs/bugs-bunny.png" alt="" class="image">
+            </div>
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3 class='panel-title'>
+                        Welcome Back
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque accusantium dolor, eos incidunt
+                    </p>
+                </div>
+                <img src="./imgs/duffy-duck.png" alt="" class="image">
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
