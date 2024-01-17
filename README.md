@@ -1,5 +1,5 @@
 # Neubrutalism Sign in & Sign up Form Validation
-![project-img](https://github.com/navi-prog/Neubrutalism-SignIn-SignUp-Form-Validation/assets/88656417/bfd45c58-ee8c-433b-a2fe-edcc4c66edab)
+![project-img](https://github.com/navi-prog/Neubrutalism-SignIn-SignUp-Form-Validation/assets/88656417/4d1ba9cc-3d1f-4a15-8d6b-9d00eac03b62)
 ## Overview of Project
 This project is a simple responsive Neubrutalism SignUp and SignIn form with several features and validations. It uses HTML, CSS, and JavaScript.
 ## Project Features
